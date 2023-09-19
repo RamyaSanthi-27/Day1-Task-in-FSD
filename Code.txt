@@ -1,0 +1,55 @@
+1.  console.log(" Student Details ");
+console.log(" =============== ");
+var stu= {  name: "Ramya",
+            Class: "12 std" ,
+            section: "A",
+            Year: 2023,
+            Bloodgroup : "O+"
+}
+console.log(stu);
+console.log(" Bike Details");
+console.log(" ============");
+var Bike={  Color: "Blue",
+            Material: "Fiber" ,
+            section: "A",
+            Wheels: 2,
+            Milege : 30
+}
+console.log(Bike);
+console.log(" Aadhar Details");
+console.log(" ==============");
+var aadhar={  Name: "Shanthi",
+              Age: 32 ,
+              Gender: "Female",
+              Address: "No:13, Kambr st, MooverNager,Chennai",
+              State : "TamilNadu"
+}
+console.log(aadhar);
+
+
+2.
+		var input;
+var name=prompt("Sample Input : " , input);
+console.log(" Sample Output : ",name);
+
+
+// Gets user input
+var name = prompt("What is your name?");
+var num = prompt("What is your favorite number? ");
+
+// Uses user input to print out information
+console.log("Hello " + name + "!");
+console.log(num + "?! That's my favorite number too!");
+
+// Prints out the variable type
+console.log("Name is a " + typeof name);
+console.log("Num is a " + typeof num);
+
+3.
+
+// Get input from the user
+var input_integer = parseInt(prompt("Enter an integer:"));
+
+// Print the input integer in the specified format
+console.log(input_integer);
+
